@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelishHub: Discover, Cook, Enjoy</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="icon" href="logo.jpg" type="image/jpg">
+
+</head>
+<body>
+    <header>
+        <img src="header-logo.png" alt="DelishHub Logo" class="header-image">
+        <div class="header-slogan">
+            WHERE EVERY RECIPE TELLS A STORY
+        </div>
+        <nav class="nav-icon" onclick="toggleNav()">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="food.html">Food Recipe</a>
+                <a href="contact.html">Conatct</a>
+                <a href="signn.html">SignIn /SignUp</a>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <main>
+        <div class="main-content">
+            <h1>DelishHub</h1>
+            <h1>Discover Cook Enjoy</h1>
+            <p>Welcome to DelishHub, your ultimate destination for discovering new recipes and exploring delicious dishes. Find your next favorite meal, learn new cooking techniques, and elevate your culinary skills. Let's cook something amazing today!</p>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for a recipe...">
+            <button id="search-button">Search</button>
+            <button id="random-recipe-button">Surprise Me!</button>
+        </div>
+        <section id="recipe-results">
+           
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 DelishHub. All rights reserved.</p>
+    </footer>
+    
+    <script src="food.js"></script>
+</body>
+</html>
